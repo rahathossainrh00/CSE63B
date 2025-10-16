@@ -401,7 +401,7 @@ function renderSchedule() {
 
 function exportSchedule() {
     // When you provide the image URL, replace 'YOUR_SCHEDULE_IMAGE_URL' with the actual URL
-    const scheduleImageUrl = 'YOUR_SCHEDULE_IMAGE_URL';
+    const scheduleImageUrl = 'https://github.com/rahathossainrh00/CSE63B/blob/main/Class-Schedule.jpg';
     
     // Create temporary link and trigger download
     const link = document.createElement('a');
@@ -1079,4 +1079,5 @@ document.addEventListener('keydown', function(e) {
 });
 
 // Auto-refresh every hour
+
 setInterval(renderPortalContent, 3600000);
