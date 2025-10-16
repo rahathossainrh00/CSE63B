@@ -24,7 +24,7 @@ const contactData = [
     {
         id: "instructor-3",
         name: "Fahim Ashraf",
-        designation: "Assistant Professor - Department of EEE",
+        designation: "Lecturer - Department of EEE",
         email: "fahimashraf@metrouni.edu.bd",
         phone: "+880 1956-789012",
         howToContact: "To be contacted through CR or by email",
@@ -33,7 +33,7 @@ const contactData = [
     {
         id: "instructor-4",
         name: "Nahida Sarkar Nijhum",
-        designation: "Senior Lecturer - Department of English",
+        designation: "Teaching Assistant - Department of English",
         email: "----------",
         phone: "+880 1304-046772",
         howToContact: "To be contacted through CR",
@@ -69,4 +69,5 @@ const contactData = [
 //
 // HOW TO CONTACT:
 // Include preferred communication methods, office hours, location, 
+
 // and any specific instructions for contacting the instructor
