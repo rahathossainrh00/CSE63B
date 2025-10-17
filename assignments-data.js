@@ -4,7 +4,7 @@
 // Auto-move to history 36 hours after deadline
 
 const assignmentsData = [
- {
+    {
         id: "presentation-001",
         type: "Presentation", // "Assignment" or "Presentation"
         title: "Group Presentation Day 1",
@@ -15,6 +15,22 @@ const assignmentsData = [
         categories: {
             "Group Details": [
                 { name: "Group list", link: "https://docs.google.com/spreadsheets/d/1sOd1jD-06L4W9RDLFdNcvmYveRphDo3UW0qEzEHLZJQ/edit?gid=0#gid=0" },
+            ],
+	
+                    }
+    },
+
+    {
+        id: "assignment-001",
+        type: "SP Lab", // "Assignment" or "Presentation"
+        title: "C Programming Contest",
+        subject: "Structured Programming Lab",
+        subjectColor: "bg-blue-600", // Customize per subject
+        description: "Complete the remaining problems in the contest",
+        deadline: "2025-10-19T10:25:00",
+        categories: {
+            "Links": [
+                { name: "Contest Link", link: "https://vjudge.net/contest/757567" },
             ],
 	
                     }
