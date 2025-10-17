@@ -401,8 +401,7 @@ function renderSchedule() {
 
 function exportSchedule() {
     // When you provide the image URL, replace 'YOUR_SCHEDULE_IMAGE_URL' with the actual URL
-    const scheduleImageUrl = 'https://drive.google.com/uc?export=download&id=19zx8t0FE02QAwTTGAdBv5VMrsj84MpNI
-';
+    const scheduleImageUrl = 'https://drive.google.com/uc?export=download&id=19zx8t0FE02QAwTTGAdBv5VMrsj84MpNI';
     
     // Create temporary link and trigger download
     const link = document.createElement('a');
