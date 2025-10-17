@@ -1079,5 +1079,4 @@ document.addEventListener('keydown', function(e) {
 });
 
 // Auto-refresh every hour
-
 setInterval(renderPortalContent, 3600000);
